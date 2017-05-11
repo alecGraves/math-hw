@@ -1,7 +1,7 @@
 '''
 Simple math utility script
 ex. usage:
-    from mymath import *
+    from calc3 import *
     v = 8*t*N.i + (t**(3/2)+1)*N.j
     arc(v, 1, 8)
 '''
@@ -227,7 +227,7 @@ def max_dir_and_value(f, point):
 # z = x*y
 # surface_area(z, (0,a), (0,pi/2), 2)
 
-f = x*y
-f = integrate(f, (z, 0, x*y), (y, 0, -x+1), (x, 0, 1))
+# f = x*y
+# f = integrate(f, (z, 0, x*y), (y, 0, -x+1), (x, 0, 1))
 
-print(f)
+# print(f)
